@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graft"
+    app:startDestination="@id/homeIcon">
+
+    <fragment
+        android:id="@+id/homeIcon"
+        android:name="com.example.foodapp.fragment.FirstFoodFragment"
+        android:label="fragment_first_food"
+        tools:layout="@layout/fragment_first_food">
+        <action
+            android:id="@+id/action_firstFoodFragment_to_secondFoodFragment"
+            app:destination="@id/addIcon" />
+    </fragment>
+    <fragment
+        android:id="@+id/addIcon"
+        android:name="com.example.foodapp.fragment.SecondFoodFragment"
+        android:label="fragment_second_food"
+        tools:layout="@layout/fragment_second_food" >
+        <action
+            android:id="@+id/action_addIcon_to_fourFoodFragment"
+            app:destination="@id/fourFoodFragment" />
+        <action
+            android:id="@+id/gizz"
+            app:destination="@id/homeIcon" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bascktIcon"
+        android:name="com.example.foodapp.fragment.ThirdFoodFragment"
+        android:label="fragment_third_food"
+        tools:layout="@layout/fragment_third_food" />
+
+    <fragment
+        android:id="@+id/fourFoodFragment"
+        android:name="com.example.foodapp.fragment.FourFoodFragment"
+        android:label="fragment_four_food"
+        tools:layout="@layout/fragment_four_food" >
+        <action
+            android:id="@+id/action_fourFoodFragment_to_bascktIcon"
+            app:destination="@id/bascktIcon" />
+    </fragment>
+</navigation>

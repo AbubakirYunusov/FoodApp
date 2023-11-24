@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FoodApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/green</item>
+    </style>
+
+    <style name="Theme.FoodApp" parent="Base.Theme.FoodApp">
+        <item name="foodBackground">@color/green</item>
+        <item name="foodBottonBackground">@color/color_bott</item>
+        <item name="foodBottonTextColor">@color/white</item>
+        <item name="foodTextColor">@color/black</item>
+    </style>
+</resources>

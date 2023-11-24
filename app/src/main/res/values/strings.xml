@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="text_bottim">Order  your  favorite  Meals \n Here!</string>
+    <string name="text_food">Foodienator</string>
+    <string name="text_me">Menu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_work">Work Place</string>
+    <string name="text_choose">Choose your preferred meal</string>
+    <string name="text_Food_bas">Basket</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_do_all">Do you want to delete all notes?</string>
+    <string name="text_burger">Beef Burger</string>
+    <string name="text_about">About this product</string>
+    <string name="text_crunchy">Crunchy beef burger \n with onion and lettuce</string>
+    <string name="text_buy">Buy Now</string>
+    <string name="text_delivery">Delivery Time</string>
+    <string name="text_minutes">25 minutes</string>
+</resources>
